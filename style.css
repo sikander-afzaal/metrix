@@ -445,7 +445,7 @@ footer p a {
   .green-text-div {
     clip-path: polygon(0 0, 67% 0, 100% 100%, 0% 100%);
     background-color: #d2e100;
-    padding: 10px 10px;
+    padding: 10px 42px 10px 5px;
   }
 }
 @media screen and (max-width: 428px) {
@@ -454,5 +454,11 @@ footer p a {
   }
   .right-grid h1:last-of-type {
     font-size: 25px;
+  }
+  .green-text-div h3 {
+    font-size: 14px;
+  }
+  .green-text-div {
+    padding: 10px 22px 10px 5px;
   }
 }
