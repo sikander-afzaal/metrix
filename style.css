@@ -81,7 +81,7 @@ body {
   height: 1410px;
   width: 100%;
   position: relative;
-  top: -110.3px;
+  top: -187.3px;
   z-index: 0;
 }
 .overlay {
@@ -91,6 +91,8 @@ body {
 .logo {
   background-color: white;
   align-self: flex-end;
+  padding: 0.5rem 1.25rem;
+  max-width: 100%;
 }
 .text-div {
   display: flex;
@@ -126,6 +128,13 @@ body {
 
 .green-text-div h3 span {
   background-color: hsla(0, 0%, 100%, 0.6);
+}
+.shadow-bg {
+  position: absolute;
+  max-width: 27%;
+  right: 12.5%;
+  transform: rotate(197deg);
+  top: 68%;
 }
 .text-bg {
   position: absolute;
@@ -345,8 +354,8 @@ footer p a {
   .hero {
     width: 100vw;
   }
-  .bg-overlay {
-    top: -220px;
+  .shadow-bg {
+    display: none;
   }
   .grid-section {
     grid-template-columns: 1fr;
